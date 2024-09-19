@@ -19,7 +19,7 @@ export default function App() {
 
   return (
     <>
-      <div className="w-screen h-screen bg-[url('/src/images/bg.jpg')] bg-center bg-slate-400 bg-blend-multiply">
+      <div className="w-screen h-100vh md:h-screen bg-[url('/src/images/bg.jpg')] bg-center bg-slate-400 bg-blend-multiply">
         <div className="container mx-auto">
           <div className="pt-24 flex flex-col justify-center items-center">
             <div className=" w-screen h-56 flex justify-center items-center overflow-hidden">
@@ -79,8 +79,10 @@ export default function App() {
                 →Reset←
               </h1>
             </div>
-            <div className="p-4 bg-cyan-400 font-semibold rounded-lg">
-              <h2>Strawberry = +5, Potato = +10, Apple = +15</h2>
+            <div className="py-6">
+              <div className="p-4 bg-cyan-400 font-semibold rounded-lg">
+                <h2>Strawberry = +5, Potato = +10, Apple = +15</h2>
+              </div>
             </div>
           </div>
         </div>
